@@ -4,10 +4,8 @@
 [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow)](https://huggingface.co/earthflow/GeoLB-ViT-14-SigLIP-so400m-384-EO)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-*We rename GeoLangBind to DOFA-CLIP for easier recognition and alignment with CLIP-style vision-language models.*
-
 ## News
-- GeoLangBind renamed to DOFA-CLIP.
+- GeoLangBind renamed to DOFA-CLIP for easier recognition and alignment with CLIP-style vision-language models.
 - Online demo is coming soon.
 
 ## Abstract
