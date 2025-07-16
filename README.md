@@ -1,11 +1,11 @@
-# DOFA-CLIP: Dynamic-One-For-All CLIP for Earth Observation
+# DOFA-CLIP: Multimodal Vision–Language Foundation Models for Earth Observation
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2503.06312)
 [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow)](https://huggingface.co/earthflow/GeoLB-ViT-14-SigLIP-so400m-384-EO)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## News
-- **GeoLangBind** is renamed to **DOFA-CLIP** for easier recognition and alignment with CLIP-style vision-language models.
+- insert date here **GeoLangBind** is renamed to **DOFA-CLIP** for easier recognition and alignment with CLIP-style vision-language models.
 - Online demo is coming soon.
 
 ## Abstract
