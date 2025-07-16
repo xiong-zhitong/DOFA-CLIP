@@ -17,6 +17,29 @@ Our approach introduces three key contributions:
 
 DOFA-CLIP achieves state-of-the-art zero-shot performance across a wide range of EO benchmarks, including unseen modalities and variable input channels. Together, these contributions establish a scalable foundation for multimodal EO understanding and open new avenues for integrating heterogeneous EO data with large language models.
 
+## Method Overview
+
+### Architecture
+
+DOFA-CLIP employs a unified vision-language architecture that dynamically adapts to different Earth observation modalities through wavelength-aware processing:
+
+![DOFA-CLIP Architecture](assets/main_arch.png)
+*Figure 1: Overview of DOFA-CLIP architecture showing the dynamic adaptation mechanism for different EO modalities.*
+
+### Feature Visualization
+
+Our method demonstrates superior spatial awareness and clear spatial patterns compared to baseline approaches:
+
+![Feature Visualization](assets/vis.png)
+*Figure 2: Feature visualization comparison showing DOFA-CLIP's enhanced spatial awareness and pattern recognition capabilities.*
+
+### T-SNE Analysis
+
+T-SNE visualization reveals how DOFA-CLIP effectively separates different visual modalities and aligns them with corresponding text features:
+
+![T-SNE Visualization](assets/tsne.png)
+*Figure 3: T-SNE visualization of DOFA-CLIP features across different visual modalities and text representations.*
+
 ## Installation
 
 ### Prerequisites
@@ -148,12 +171,21 @@ def encode_image(model, image, wvs, normalize: bool = False):
     return F.normalize(features, dim=-1) if normalize else features
 ```
 
+## Experimental Results
+
+### Zero-Shot Classification Performance
+
+DOFA-CLIP demonstrates state-of-the-art performance across multiple zero-shot classification benchmarks:
+
+![Zero-Shot Results](assets/zero-shot.png)
+*Table 1: Zero-shot classification results on various Earth observation datasets, showing DOFA-CLIP's superior performance across different modalities.*
+
 ## Model Details
 
 - **Architecture**: Vision Transformer (ViT-14) with SigLIP
 - **Training Data**: GeoLangBind-2M dataset
 - **Supported Modalities**: 6 heterogeneous EO modalities
-- **Input Resolution**: 384×384 and 224x224
+- **Input Resolution**: 384×384
 
 ## Citation
 
