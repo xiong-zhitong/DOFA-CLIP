@@ -122,11 +122,9 @@ DOFA-CLIP uses wavelength information to adapt to different modalities. Here are
 # RGB (visible light)
 wvs_rgb = torch.tensor([0.665, 0.560, 0.490])  # Red, Green, Blue
 
-# Near-infrared
-wvs_nir = torch.tensor([0.842])  # NIR band
+# Sentinel-2
+wvs_multi = torch.tensor([0.665, 0.56, 0.49, 0.705, 0.74, 0.783, 0.842, 1.61, 2.19])  # 9 bands
 
-# Multispectral (example)
-wvs_multi = torch.tensor([0.490, 0.560, 0.665, 0.842])  # Blue, Green, Red, NIR
 ```
 
 ### Custom Image Encoding Function
@@ -155,21 +153,11 @@ def encode_image(model, image, wvs, normalize: bool = False):
 - **Architecture**: Vision Transformer (ViT-14) with SigLIP
 - **Training Data**: GeoLangBind-2M dataset
 - **Supported Modalities**: 6 heterogeneous EO modalities
-- **Input Resolution**: 384×384
-- **Context Length**: Variable (model-dependent)
+- **Input Resolution**: 384×384 and 224x224
 
 ## Citation
 
-If you use DOFA-CLIP in your research, please cite:
-
-```bibtex
-@article{dofa_clip_2024,
-  title={DOFA-CLIP: Dynamic-One-For-All CLIP for Earth Observation},
-  author={Your Name and Others},
-  journal={arXiv preprint arXiv:your-paper-id},
-  year={2024}
-}
-```
+If you use DOFA-CLIP in your research, please cite our paper.
 
 ## License
 
@@ -178,5 +166,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Built on top of [OpenCLIP](https://github.com/mlfoundations/open_clip)
-- Inspired by the original CLIP architecture
+- Inspired by the original SigLIP architecture
 - Thanks to the Earth observation community for valuable feedback
