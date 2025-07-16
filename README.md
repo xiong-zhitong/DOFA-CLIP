@@ -53,19 +53,11 @@ T-SNE visualization reveals how DOFA-CLIP effectively separates different visual
 
 1. Clone the repository and navigate to the DOFA-CLIP directory:
 ```bash
-git clone <your-repo-url>
-cd tecula/backend/builtin_models/DOFA-CLIP
+git clone https://github.com/xiong-zhitong/DOFA-CLIP.git
+cd DOFA-CLIP
 ```
-
-2. Install the required dependencies:
+2. Install open_clip (required for DOFA-CLIP):
 ```bash
-pip install torch torchvision torchaudio
-pip install Pillow
-```
-
-3. Install open_clip (required for DOFA-CLIP):
-```bash
-git clone https://github.com/mlfoundations/open_clip.git
 cd open_clip
 pip install -e .
 cd ..
