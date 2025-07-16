@@ -1,6 +1,6 @@
 # DOFA-CLIP: Dynamic-One-For-All CLIP for Earth Observation
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/your-paper-id)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2503.06312)
 [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow)](https://huggingface.co/earthflow/GeoLB-ViT-14-SigLIP-so400m-384-EO)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
