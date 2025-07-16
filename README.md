@@ -6,6 +6,10 @@
 
 *We rename GeoLangBind to DOFA-CLIP for easier recognition and alignment with CLIP-style vision-language models.*
 
+## News
+- GeoLangBind renamed to DOFA-CLIP.
+- Online demo is coming soon.
+
 ## Abstract
 
 Earth observation (EO) spans a broad spectrum of modalities, including optical, radar, multispectral, and hyperspectral data, each capturing distinct environmental signals. However, current vision-language models in EO, particularly CLIP-based variants, remain confined to individual modalities, limiting generalization and scalability across diverse tasks. We present **DOFA-CLIP (Dynamic-One-For-All CLIP)**, a unified vision-language foundation model that dynamically adapts to EO modalities with flexible channel configurations through a single Transformer backbone.
