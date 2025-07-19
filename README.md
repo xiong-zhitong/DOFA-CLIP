@@ -5,8 +5,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## News
-- insert date here **GeoLangBind** is renamed to **DOFA-CLIP** for easier recognition and alignment with CLIP-style vision-language models.
-- Online demo is coming soon.
+- **GeoLangBind** is renamed to **DOFA-CLIP** for easier recognition and alignment with CLIP-style vision-language models.
+- **Online Demo**: [Try DOFA-CLIP Interactive Demo](https://4b659738f0aaa6e0d2.gradio.live/)
 
 ## Abstract
 
