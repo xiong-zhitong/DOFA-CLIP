@@ -6,7 +6,7 @@
 
 ## News
 - **GeoLangBind** is renamed to **DOFA-CLIP** for easier recognition and alignment with CLIP-style vision-language models.
-- **Online Demo**: [Try DOFA-CLIP Interactive Demo](https://4b659738f0aaa6e0d2.gradio.live/)
+- **Online Demo**: [Try DOFA-CLIP Interactive Demo](https://89faeda24ef0fd09d1.gradio.live)
 
 ## Abstract
 
