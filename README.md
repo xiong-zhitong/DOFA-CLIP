@@ -4,6 +4,11 @@
 [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow)](https://huggingface.co/earthflow/GeoLB-ViT-14-SigLIP-so400m-384-EO)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+## Demo Video
+
+![DOFA-CLIP Demo](assets/dofa-clip.mov)
+*Demo video showcasing DOFA-CLIP's capabilities for Earth observation image classification and multimodal understanding.*
+
 ## News
 - **GeoLangBind** is renamed to **DOFA-CLIP** for easier recognition and alignment with CLIP-style vision-language models.
 - **Online Demo**: [Try DOFA-CLIP Interactive Demo](https://89faeda24ef0fd09d1.gradio.live)
